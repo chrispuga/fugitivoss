@@ -1,0 +1,156 @@
+#background {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(video.mp4) no-repeat;
+    background-size: cover;
+}
+
+body {
+  margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 3rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+
+.contenedor {
+  margin: 15vh 30px;
+  float:right;
+  padding: 30px;
+  width: 73vh;
+  height: 70VH;
+  color: white;
+  font: avenir;
+  z-index: 1;
+  overflow: auto;
+  position: fix
+}
+
+.navbar-light .navbar-nav .nav-link{
+  color: white;
+}
+
+.navbar-toggler-icon {
+  background-image: arellano.jpg
+}
+
+.contenedor p {
+  font-size: 18px;
+  text-align: justify;
+  text-justify: inter-word;
+  text-align-last: left;
+}
+
+.contenedor::-webkit-scrollbar {
+  width: 5px;
+}
+
+.contenedor::-webkit-scrollbar-thumb {
+    background: white;
+    border-radius: 5px;
+}
+
+img {
+  width: 100%;
+}
+
+.contenedor a {
+    color: #49b9fa;
+}
+
+.contenedor a:hover {
+    color: #49b9fa;
+}
+
+
+.videoContainer .overlay {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    top: 0px;
+    left: 0px;
+    background: rgba(248,80,50,0);
+    background: -moz-linear-gradient(left, rgba(248,80,50,0) 0%, rgba(255,255,255,0) 0%, rgba(0,0,0,0.6) 60%, rgba(0,0,0,0.8) 80%, rgba(0,0,0,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(248,80,50,0)), color-stop(0%, rgba(255,255,255,0)), color-stop(60%, rgba(0,0,0,0.6)), color-stop(80%, rgba(0,0,0,0.8)), color-stop(100%, rgba(0,0,0,1)));
+    background: -webkit-linear-gradient(left, rgba(248,80,50,0) 0%, rgba(255,255,255,0) 0%, rgba(0,0,0,0.6) 60%, rgba(0,0,0,0.8) 80%, rgba(0,0,0,1) 100%);
+    background: -o-linear-gradient(left, rgba(248,80,50,0) 0%, rgba(255,255,255,0) 0%, rgba(0,0,0,0.6) 60%, rgba(0,0,0,0.8) 80%, rgba(0,0,0,1) 100%);
+    background: -ms-linear-gradient(left, rgba(248,80,50,0) 0%, rgba(255,255,255,0) 0%, rgba(0,0,0,0.6) 60%, rgba(0,0,0,0.8) 80%, rgba(0,0,0,1) 100%);
+    background: linear-gradient(to right, rgba(248,80,50,0) 0%, rgba(255,255,255,0) 0%, rgba(0,0,0,0.6) 60%, rgba(0,0,0,0.8) 80%, rgba(0,0,0,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', endColorstr='#000000', GradientType=1 );
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .contenedor p {
+      font-size: 1.3rem;
+    }
+}
+
+@media only screen and (min-width: 600px)
+{
+    .contenedor p {
+      font-size: 1.3rem;
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 400px) {
+    .contenedor {
+      align-items: center;
+      padding: 30px;
+      width: 65vh;
+      height: 65VH;
+      color: white;
+      font: avenir;
+      z-index: 1;
+      position: fix
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .contenedor h5 {
+      font-size: 1.5rem;
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .contenedor h1 {
+      font-size: 1.8rem;
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .contenedor h3 {
+      font-size: 1.6rem;
+    }
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .contenedor {
+      align-items: center;
+      padding: 30px;
+      width: 65vh;
+      height: 66vh;
+      color: white;
+      font: avenir;
+      z-index: 1;
+
+    }
+}
