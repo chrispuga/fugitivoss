@@ -26,14 +26,9 @@ body {
     background-color: #212121;;
 }
 
-.contenedor {
-  margin: 15vh 30px;
-  float:right;
-  padding: 30px;
-  width: 65vh;
-  height: 70VH;
+.article {
+  height: 80vh;
   color: white;
-  font: avenir;
   z-index: 1;
   overflow: auto;
 }
@@ -46,31 +41,28 @@ body {
   background-image: arellano.jpg
 }
 
-.contenedor p {
+.article p {
   font-size: 18px;
   text-align: justify;
   text-justify: inter-word;
   text-align-last: left;
 }
 
-.contenedor::-webkit-scrollbar {
+.article::-webkit-scrollbar {
   width: 5px;
 }
 
-.contenedor::-webkit-scrollbar-thumb {
+.article::-webkit-scrollbar-thumb {
     background: white;
     border-radius: 5px;
 }
 
-img {
-  width: 100%;
-}
 
-.contenedor a {
+.article a {
     color: #49b9fa;
 }
 
-.contenedor a:hover {
+.article a:hover {
     color: #49b9fa;
 }
 
@@ -92,89 +84,9 @@ img {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', endColorstr='#000000', GradientType=1 );
 }
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-    .contenedor p {
-      font-size: 1.3rem;
-    }
+.mt-custom{
+  margin-top: 56px;
 }
-
-@media only screen and (min-width: 600px)
-{
-    .contenedor p {
-      font-size: 1.3rem;
-    }
-}
-
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 400px) {
-    .contenedor {
-      align-items: center;
-      padding: 30px;
-      width: 65vh;
-      height: 65VH;
-      color: white;
-      font: avenir;
-      z-index: 1;
-      position: fixed;
-    }
-}
-
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-    .contenedor h5 {
-      font-size: 1.5rem;
-    }
-}
-
-align-items: center;
-justify-content: center
-padding: 30px;
-width: 65vh;
-height: 66vh;
-color: white;
-font: avenir;
-z-index: 1;
-
-
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-    .contenedor h1 {
-      font-size: 1.8rem;
-    }
-}
-
-
-
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-    .contenedor h3 {
-      font-size: 1.6rem;
-    }
-}
-
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-    .videoContainer{
-      display:none;
-    }
-}
-
-
-
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-    .contenedor {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      top: 12%;
-      left: 5%;
-      width: 50vh;
-      height: 85vh;
-      margin: 0 auto;
-      padding: 0;
-      overflow: auto;
-    }
+.full-viewh{
+  min-height: 100vh;
 }
